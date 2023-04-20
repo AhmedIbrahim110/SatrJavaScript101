@@ -34,4 +34,7 @@ let language = 'JavaScript';
 console.log(language.length);
 console.log(language[0]);
 
+let colors = ['red', 'green', 'blue'];
+console.log(colors);
+console.log(colors[0]);
 
