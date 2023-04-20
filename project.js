@@ -26,4 +26,11 @@ if(BookQ > 0){
     console.log("This book is sold out");
 }
 
-
+let balance = 500;
+let Bookp = Bookstore[1][3];
+let Quantity = 3;
+let Price = Bookp * Quantity;
+let checkout = balance - Price;
+if(BookQ > 0 && BookQ > Quantity && checkout >= 0){
+    console.log("You Sucsessfully bought " + Quantity + " Copies of " + Author);
+}
