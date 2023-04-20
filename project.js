@@ -1,6 +1,6 @@
 const Bookstore = [
 ['ID', 'Book Title', ' Author ', ' Price', 'Quantity'],
-[1, 'Start with why', 'Simon Sinek', 80.0, 13],
+[1, 'Start with why', 'Simon Sinek', 80.0, 0],
 [2, 'But how do it know', 'J.Clark Scott', 59.9, 22],
 [3, 'Clean Code', 'Robert Cecil Martin', 50.0, 5],
 [4, 'Zero to one', 'Peter Thiel', 45.0, 12],
@@ -33,4 +33,7 @@ let Price = Bookp * Quantity;
 let checkout = balance - Price;
 if(BookQ > 0 && BookQ > Quantity && checkout >= 0){
     console.log("You Sucsessfully bought " + Quantity + " Copies of " + Author);
+    BookQ = BookQ - Quantity;
+    console.log("There is " + BookQ + " Copy of: " + BookName + " By " + Author);
 }
+
