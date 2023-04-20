@@ -30,3 +30,8 @@ console.log(name1);
 let value = 2;
 console.log(value * 'JavaScript');
 
+let language = 'JavaScript';
+console.log(language.length);
+console.log(language[0]);
+
+
