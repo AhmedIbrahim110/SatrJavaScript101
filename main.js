@@ -1,3 +1,4 @@
+/*
 let color = 'blue'
 console.log(color);
 console.log(color);
@@ -16,9 +17,9 @@ console.log(color);
 //console.log(typeof name);
 //console.log(typeof age);
 
-let result = 2 > 3;
-console.log(result);
-console.log(typeof result);
+//let result = 2 > 3;
+//console.log(result);
+//console.log(typeof result);
 
 //let message = "Hello world";
 //console.log(typeof message);
@@ -82,3 +83,22 @@ const Arr = ['first', 'second', 'third', 'forth'];
 for(let i = 0; i < Arr.length; i++){
     console.log(Arr[i]);
 }
+
+let i = 0;
+while(i < Arr.length){
+console.log(Arr[i]);
+i++
+}
+
+function printNumbers(to){
+    for(let i =1; i <= to; i++){
+        console.log(i);
+    }
+}
+
+function add(firstNumber, secondNumber){
+    let result = firstNumber + secondNumber;
+    return result;
+}
+printNumbers(add(2, 7));
+*/
