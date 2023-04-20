@@ -37,4 +37,9 @@ console.log(language[0]);
 let colors = ['red', 'green', 'blue'];
 console.log(colors);
 console.log(colors[0]);
+colors[1] = 'black'
+console.log(colors);
+console.log(colors.includes('black'));
+colors.unshift('white');
+console.log(colors);
 
