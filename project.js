@@ -1,6 +1,6 @@
 const Bookstore = [
 ['ID', 'Book Title', ' Author ', ' Price', 'Quantity'],
-[1, 'Start with why', 'Simon Sinek', 80.0, 0],
+[1, 'Start with why', 'Simon Sinek', 80.0, 13],
 [2, 'But how do it know', 'J.Clark Scott', 59.9, 22],
 [3, 'Clean Code', 'Robert Cecil Martin', 50.0, 5],
 [4, 'Zero to one', 'Peter Thiel', 45.0, 12],
